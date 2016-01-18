@@ -2,12 +2,7 @@
 ====================================
 ------------------------------------
 1. General
-2. Header
-3. Social Icons
-4. About
-5. Portfolio
-6. Form
-7. Footer
+2. Footer
 -------------------------------------
 =====================================
 */
@@ -66,4 +61,13 @@ h1 {
     color: blue;
     font-weight: 600;
     border-bottom: 3px double blue;
+}
+
+/*
+    FOOTER
+------------------------------------ */
+
+.footer p {
+    color: azure;
+    text-align: center;
 }
