@@ -18,16 +18,16 @@ html {
     font-family: 'Raleway', serif;
 }
 body {
-    font-family: 'Raleway', serif;
     line-height: 28px;
     font-weight: 300;
     font-size: 20px;
     color: #282828;
-    background-color: #f2f2f2;
-    background-color: blue;
-    background-image: linear-gradient(to top, blue, #918e82 12%);
+    /*
+    background-color: #fff;
+    background-image: linear-gradient(to top, #fff, #918e82 90%);
     background-attachment: fixed;
     position: absolute;
+*/
     top: 0;
     bottom: 0;
     left: 0;
@@ -44,7 +44,7 @@ h3,
 h4,
 h5 {
     text-align: center;
-    color: azure;
+    color: #000;
 }
 p {
     color: blue;
@@ -57,10 +57,32 @@ p {
     HEADER
 ------------------------------------ */
 
+.header {
+    background-color: #000;
+    background-image: linear-gradient(to bottom, #000, #918e82 1000%);
+    background-attachment: fixed;
+}
+.color {
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #000, #918e82 300%);
+    background-attachment: fixed;
+    height: 546px;
+}
 h1 {
     color: blue;
     font-weight: 600;
     border-bottom: 3px double blue;
+}
+h3,
+h5 {
+    font-weight: 600;
+    color: blue;
+}
+.two {
+    background-color: red;
+}
+.two:hover {
+    background-color: darkred;
 }
 
 /*
@@ -68,6 +90,6 @@ h1 {
 ------------------------------------ */
 
 .footer p {
-    color: azure;
+    color: blue;
     text-align: center;
 }
