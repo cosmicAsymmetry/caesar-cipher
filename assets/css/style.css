@@ -1,0 +1,69 @@
+/*
+====================================
+------------------------------------
+1. General
+2. Header
+3. Social Icons
+4. About
+5. Portfolio
+6. Form
+7. Footer
+-------------------------------------
+=====================================
+*/
+
+
+/*
+    GENERAL
+------------------------------------ */
+
+body,
+html {
+    overflow-x: hidden;
+    font-family: 'Raleway', serif;
+}
+body {
+    font-family: 'Raleway', serif;
+    line-height: 28px;
+    font-weight: 300;
+    font-size: 20px;
+    color: #282828;
+    background-color: #f2f2f2;
+    background-color: blue;
+    background-image: linear-gradient(to top, blue, #918e82 12%);
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: antialiased !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-align: center;
+    color: azure;
+}
+p {
+    color: blue;
+}
+.button {
+    background-color: blue;
+}
+
+/*
+    HEADER
+------------------------------------ */
+
+h1 {
+    color: blue;
+    font-weight: 600;
+    border-bottom: 3px double blue;
+}
