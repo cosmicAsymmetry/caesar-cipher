@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="http://cdn.foundation5.zurb.com/foundation.css" />
     <link rel="stylesheet" href="assets/foundation/css/foundation.min.css" />
     <link rel="stylesheet" href="assets/foundation/css/foundation.css" />
+    <link rel="stylesheet" href="assets/foundation/css/" />
     <link rel="stylesheet" href="assets/foundation/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="assets/dist/sweetalert.css">
     <link rel="stylesheet" href="assets/css/reverse_name.css" />
@@ -24,36 +25,55 @@
 </head>
 
 <body>
-    <div class="nav"></div>
     <div class="row">
-        <div class="large-12 columns">
-            <h1>Reverse Name</h1>
+        <p class="title" data-section-title>
+            <a href="#">Section 2</a>
+        </p>
+        <div class="content" data-section-title>
+            <ul class="side-nav">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 1</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Link 1</a></li>
+            </ul>
         </div>
     </div>
 
+
+
+
     <div class="row">
-        <div class="large-12 columns">
-            <div class="panel">
-                <h3>We&rsquo;re stoked you want to try Foundation!</h3>
-                <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-                <p>Once you"ve exhausted the fun in this document, you should check out:</p>
-                <div class="row">
-                    <div class="large-4 medium-4 columns">
-                        <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a>
-                            <br />Everything you need to know about using the framework.</p>
-                    </div>
-                    <div class="large-4 medium-4 columns">
-                        <p><a href="http://github.com/zurb/foundation">Foundation on Github</a>
-                            <br />Latest code, issue reports, feature requests and more.</p>
-                    </div>
-                    <div class="large-4 medium-4 columns">
-                        <p><a href="http://twitter.com/foundationzurb">@foundationzurb</a>
-                            <br />Ping us on Twitter if you have questions. If you build something with this we"d love to see it (and send you a totally boss sticker).</p>
-                    </div>
-                </div>
+        <div class="large-4 medium-4 columns">
+            <div class="callout panel">
+                <h1>Reverse Name</h1>
+            </div>
+        </div>
+        <div class="large-2 medium-2 columns">
+            <div class="callout panel">
+                <p>encryption</p>
+            </div>
+        </div>
+        <div class="large-2 medium-2 columns">
+            <div class="callout panel">
+                <p>Four columns</p>
+            </div>
+        </div>
+        <div class="large-2 medium-2 columns">
+            <div class="callout panel">
+                <p>Four columns</p>
+            </div>
+        </div>
+        <div class="large-2 medium-2 columns">
+            <div class="callout panel">
+                <p>Four columns</p>
             </div>
         </div>
     </div>
+
+
 
     <div class="row">
         <div class="large-8 medium-8 columns">
@@ -181,12 +201,31 @@
         </div>
     </div>
 
-    <script src="assets/js/jquery.min.js" s></script>
-    <script src="assets/js/foundation.min.js"></script>
+    <!-- footer -->
+    <div class="footer" style="text-align: center; margin-top: 30px;">
+        <div class="row">
+            <div class="large-12 medium-12 columns">
+                <p>&copy;
+                    <script type="text/javascript">
+                        document.write(new Date().getFullYear());
+
+                    </script>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/dist/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://cdn.foundation5.zurb.com/foundation.js"></script>
+    <script src="assets/foundation/js/foundation.js"></script>
+    <script src="assets/foundation/js/f5/foundation.topbar.js"></script>
+    <script src="assets/foundation/js/f5/foundation.tab.js"></script>
     <script>
         $(document).foundation();
 
     </script>
+
 </body>
 
 </html>
